@@ -699,11 +699,13 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 /* contact sidebar */
-#contact aside h3 {
+#contact h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
    color: #11ABB0;
+   font-weight: bold;
 }
+#contact .process-wrap .col { width: 33%; }
 
 
 /* ================================================================== */
