@@ -32,7 +32,7 @@
 
 .section-head h2 { font: 30px/42px montserrat-bold, sans-serif; }
 .desc { font: 14px/24px opensans-regular, sans-serif; }
-.intro { font: 20px/36px opensans-light, sans-serif; }
+.intro { font: 18px/30px opensans-light, sans-serif; }
 
 /* Left clearing for flexible columns - columns that changes width in
 different screen sizes. Makes columns with different heights align
@@ -184,7 +184,8 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/intro-bg.jpg) no-repeat center;
+   /*background-color: #25292D;*/
+   background: #111 url(../images/intro-bg1.jpg) no-repeat center;
    overflow: hidden;
 }
 
@@ -272,8 +273,8 @@ ul#nav li.active a { color: #11ABB0; }
 
 #aboutme {
    background: #1b1e21 url(../images/patterns/aboutmebg.png);
-   padding-top: 156px;
-   padding-bottom: 120px;
+   padding-top: 100px;
+   padding-bottom: 100px;
    color: #4E565F;
 }
 
@@ -282,7 +283,7 @@ ul#nav li.active a { color: #11ABB0; }
 
 #aboutme .section-head h2 { color: #11ABB0; }
 #aboutme .section-head p.desc,
-#aboutme .section-head .intro { color: #57606B; }
+#aboutme .section-head .intro { color: #AAAAAA; }
 
 .aboutme-wrapper { margin-top: 42px; }
 .aboutme-wrapper .col {
@@ -311,16 +312,16 @@ ul#nav li.active a { color: #11ABB0; }
 
 #portfolio {
    background: #f5f5f5 url(../images/patterns/grey.png);
-   padding-top: 156px;
-   padding-bottom: 120px;
+   padding-top: 100px;
+   padding-bottom: 100px;
 }
 #portfolio .section-head h2 { color: #0f9095; }
 #portfolio .section-head p.desc { color: #999999; }
-#portfolio .section-head .intro { color: #777777; }
+#portfolio .section-head .intro { color: #444444; }
 
 /* Portfolio Content */
-#portfolio-wrapper { margin-top: 36px; }
-#portfolio-wrapper .col {
+.portfolio-wrapper{ margin-top: 36px; }
+.portfolio-wrapper .col {
    width: 25%;
    margin-bottom: 36px;
 }
@@ -369,9 +370,9 @@ ul#nav li.active a { color: #11ABB0; }
    visibility: hidden;
 	top: 100px;
 	left: 50%;
-	margin-left: -300px;
-   width: 600px;
-	max-width: 600px;
+	margin-left: -400px;
+   width: 800px;
+	max-width: 800px;
 	background: #fff;
 	position: absolute;
 	z-index: 101;
@@ -406,6 +407,10 @@ ul#nav li.active a { color: #11ABB0; }
    padding: 18px 36px;
    background: #111;
    text-align: left;
+   height: 60px;
+}
+.reveal-modal .link-box h4 {
+  color:#0f9095;
 }
 .reveal-modal .link-box a {
    color: #fff;
@@ -415,7 +420,7 @@ ul#nav li.active a { color: #11ABB0; }
    cursor: pointer;
 }
 .reveal-modal a:hover {	color: #00CCCC; }
-.reveal-modal a.close-reveal-modal { margin-left: 28px; }
+.reveal-modal a.close-reveal-modal { margin-left: 28px; float:right;}
 
 
 /* ================================================================== */
@@ -426,8 +431,8 @@ ul#nav li.active a { color: #11ABB0; }
 
 #journal {
    background-color: #0f9095;
-   padding-top: 156px;
-   padding-bottom: 120px;
+   padding-top: 100px;
+   padding-bottom: 100px;
    color: #7fe6ed;
 }
 
@@ -503,14 +508,14 @@ ul#nav li.active a { color: #11ABB0; }
 
 #skills {
    background: #fff url(../images/patterns/grey.png);
-   padding-top: 156px;
-   padding-bottom: 144px;
-   color: #777777;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   color: #444444;
 }
 #skills .section-head h2,
 #skills h4, #skills h5 { color: #0f9095; }
-#skills .section-head p.desc { color: ##777777; }
-#skills .section-head .intro { color: ##777777; }
+#skills .section-head p.desc { color: ##444444; }
+#skills .section-head .intro { color: ##444444; }
 #skills h3 {
    font: 24px/30px montserrat-regular, sans-serif;
    margin-top: 24px;
@@ -593,68 +598,14 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* ================================================================== */
 
-/* h. Call To Action
-
-/* ================================================================== */
-
-#call-to-action {
-   background-color: #0f9095;
-   padding-top: 60px;
-   padding-bottom: 72px;
-   color: #7fe6ed;
-}
-#call-to-action .action { margin-top: 12px; }
-#call-to-action h2 {
-   font: 34px/42px montserrat-bold, sans-serif;
-   color: #fff;
-   letter-spacing: -1px;
-   margin-bottom: 3px;
-}
-#call-to-action h2 a { color: inherit; }
-#call-to-action p { font-size: 17px; }
-#call-to-action .button { background: #036569; }
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #fff;
-   color: #0F9095;
-}
-#call-to-action p span {
-	font-family: opensans-semibold, sans-serif;
-	color: #fff;
-}
-
-
-/* ================================================================== */
-
-/* i. Map
-
-/* ================================================================== */
-
-#map {
-   display: block;
-	height: 486px;
-   width: 100%;
-   background-color: #F6F4EF;
-}
-#map img { max-width:inherit !important; }
-#map .map-error {
-  text-align: center;
-  padding-top: 48px;
-  color: #C0B491;
-  font-size: 14px;
-}
-
-
-/* ================================================================== */
-
 /* j. Contact
 
 /* ================================================================== */
 
 #contact {
    background-color: #25292D;
-   padding-top: 108px;
-   padding-bottom: 120px;
+   padding-top: 100px;
+   padding-bottom: 100px;
    color: #707B89;
 }
 
@@ -664,8 +615,8 @@ ul#nav li.active a { color: #11ABB0; }
 #contact .section-head { margin-bottom: 42px; }
 #contact .section-head h2 { color: #11ABB0; }
 #contact .section-head p.desc,
-#contact .intro { color: #57606B; }
-#contact p {  }
+#contact .intro { color: #AAAAAA; }
+#contact p { color: #CCCCCC; }
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
@@ -820,6 +771,11 @@ ul#nav li.active a { color: #11ABB0; }
 .post .post-content {
    margin-bottom: 24px;
    width: 75%;
+}
+.post .post-content img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* tags */
@@ -1223,8 +1179,8 @@ footer .social-links li:first-child { margin-left: 0; }
 
    /* portfolio section
    -------------------------------------------------------------------- */
-   #portfolio #portfolio-wrapper { margin-top: 12px; }
-   #portfolio #portfolio-wrapper .col { width: 33.33333%; }
+   #portfolio .portfolio-wrapper { margin-top: 12px; }
+   #portfolio .portfolio-wrapper .col { width: 33.33333%; }
 
    /* journal section
    -------------------------------------------------------------------- */
