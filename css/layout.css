@@ -373,7 +373,7 @@ ul#nav li.active a { color: #11ABB0; }
 	margin-left: -400px;
    width: 800px;
 	max-width: 800px;
-	background: #fff;
+	/*background: #fff;*/
 	position: absolute;
 	z-index: 101;
 	padding: 0;
@@ -404,13 +404,13 @@ ul#nav li.active a { color: #11ABB0; }
    margin-right: 8px;
 }
 .reveal-modal .link-box {
-   padding: 18px 36px;
+   padding: 18px 36px 18px 8px;
    background: #111;
    text-align: left;
    height: 60px;
 }
 .reveal-modal .link-box h4 {
-  color:#0f9095;
+  color:#fff;
 }
 .reveal-modal .link-box a {
    color: #fff;
