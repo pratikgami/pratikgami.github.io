@@ -679,7 +679,7 @@ col.collapsed { padding: 0; }
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
-      padding: 0 20px;
+     padding: 0 20px;
     }
     /* for nested columns */
    .col .row { width: 100%; }
@@ -749,6 +749,3 @@ col.collapsed { padding: 0; }
 .align-right  { text-align: right; }
 .pull-left    { float: left; }
 .pull-right   { float: right; }
-
-
-

@@ -86,7 +86,7 @@ header {
    height: 54px;
    width: 100%;
    z-index: 99999;
-   background: url(../images/k-opacity-70.png);
+   background: #000;
 
    position: fixed;
    top: 0;
@@ -188,6 +188,20 @@ ul#nav li.active a { color: #11ABB0; }
    background: #111 url(../images/intro-bg1.jpg) no-repeat center;
    overflow: hidden;
 }
+#intro p{
+  color: #fff;
+  font: 18px/30px montserrat-regular, Sans-serif;
+}
+#intro .desc{
+  color: #fff;
+  font: 16px/28px opensans-regular, sans-serif;
+}
+
+
+
+
+
+
 
 /* FlexSlider intro Slider Styles */
 .slides {
@@ -198,7 +212,7 @@ ul#nav li.active a { color: #11ABB0; }
 	color: #737E8C;
    text-align: center;
    width: 85%;
-   margin: 156px auto 66px auto;
+   margin: 136px auto 66px auto;
 }
 .slider-text h2 {
    font: 56px/78px montserrat-regular, Sans-serif;
@@ -278,6 +292,7 @@ ul#nav li.active a { color: #11ABB0; }
    color: #4E565F;
 }
 
+#aboutme .one-third { padding-top: 8px;}
 #aboutme a, #aboutme a:visited  { color: #C4C4C4; }
 #aboutme a:hover, #aboutme a:focus { color: #11ABB0; }
 
@@ -306,6 +321,51 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* ================================================================== */
 
+/* f. Timeline
+
+/* ================================================================== */
+
+#timeline {
+   background: #f5f5f5 url(../images/patterns/grey.png);
+   padding-top: 100px;
+   padding-bottom: 100px;
+   color: #7fe6ed;
+}
+
+#timeline .section-head h2 { color: #0f9095; }
+#timeline .section-head p.desc,
+#timeline .section-head .intro { color: #444; }
+
+/* ================================================================== */
+
+/* d. approach
+
+/* ================================================================== */
+
+#approach {
+  background: #222 url(../images/patterns/aboutmebg.png);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #4E565F;
+}
+
+#approach .portfolio-item {
+  text-align: center;
+  color: #bbb;
+}
+
+#approach .portfolio-item h5 {
+  text-align: center;
+  color: #ddd;
+}
+
+#approach .section-head h2 { color: #11ABB0; }
+
+
+
+
+/* ================================================================== */
+
 /* e. Portfolio
 
 /* ================================================================== */
@@ -320,7 +380,7 @@ ul#nav li.active a { color: #11ABB0; }
 #portfolio .section-head .intro { color: #444444; }
 
 /* Portfolio Content */
-.portfolio-wrapper{ margin-top: 36px; }
+.portfolio-wrapper { margin-top: 36px; }
 .portfolio-wrapper .col {
    width: 25%;
    margin-bottom: 36px;
@@ -330,9 +390,9 @@ ul#nav li.active a { color: #11ABB0; }
    background: #fff;
    overflow: hidden;
 
-   -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
-   -moz-box-shadow:    0px 1px 1px rgba(50, 50, 50, 0.1);
-   box-shadow:         0px 1px 1px rgba(50, 50, 50, 0.1);
+   -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.5);
+   -moz-box-shadow:    2px 2px 5px rgba(50, 50, 50, 0.5);
+   box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.5);
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
