@@ -185,7 +185,7 @@ ul#nav li.active a { color: #11ABB0; }
 
 #intro {
    /*background-color: #25292D;*/
-   background: #111 url(../images/intro-bg1.jpg) no-repeat center;
+   background: #111 url(../images/intro-bg2.jpg) no-repeat center;
    overflow: hidden;
 }
 #intro p{
