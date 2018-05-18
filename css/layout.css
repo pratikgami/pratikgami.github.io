@@ -292,31 +292,17 @@ ul#nav li.active a { color: #11ABB0; }
    color: #4E565F;
 }
 
-#aboutme .one-third { padding-top: 8px;}
-#aboutme a, #aboutme a:visited  { color: #C4C4C4; }
-#aboutme a:hover, #aboutme a:focus { color: #11ABB0; }
-
 #aboutme .section-head h2 { color: #11ABB0; }
-#aboutme .section-head p.desc,
-#aboutme .section-head .intro { color: #AAAAAA; }
+#aboutme .section-head p.desc { color: #44444; }
+#aboutme .section-head .intro {
+  color: #AAAAAA;
+  font: 16px opensans-regular, sans-serif;
+}
 
-.aboutme-wrapper { margin-top: 42px; }
-.aboutme-wrapper .col {
-   width: 33.33333%;
-   margin-bottom: 30px;
+#aboutme .section-head .sub-head {
+  color: #11ABB0;
+  font: 16px opensans-bold, sans-serif;
 }
-.aboutme-wrapper h2 {
-   font: 16px/24px montserrat-bold, sans-serif;
-   letter-spacing: 1.5px;
-   text-transform: uppercase;
-   color: #C4C4C4;
-   margin-bottom: 18px;
-}
-.aboutme-wrapper p {
-   font-size: 16px;
-   line-height: 30px;
-}
-#aboutme .aboutme-wrapper i { margin-right: 10px; }
 
 
 /* ================================================================== */
