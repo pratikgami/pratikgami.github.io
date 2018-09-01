@@ -436,6 +436,13 @@ dd { margin: 0 0 0 20px; }
 .pagination .prev, .pagination .next {}
 
 /*  5. Images  --------------------------------------------------------- */
+.portfolio-wrapper {
+  a{
+    img {
+      width: 100%;
+    }
+  }
+}
 
 img {
    max-width: 100%;
