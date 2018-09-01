@@ -453,6 +453,7 @@ ul#nav li.active a { color: #11ABB0; }
    background: #111;
    text-align: left;
    height: 60px;
+   width: 100%;
 }
 .reveal-modal .link-box h4 {
   color:#fff;
