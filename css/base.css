@@ -136,12 +136,18 @@ table {
 }
 
 body {
+  img{
+    max-width: 100%;
+    height: auto;
+  }
    background: #151719 url(../images/bg.png);
 	font: 15px/30px opensans-regular, sans-serif;
 	color: #838C95;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
+  max-width:100%;
 }
+
 
 /*  2. Typography
        Vertical rhythm with leading derived from 6
