@@ -610,6 +610,16 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* Testimonials
 /* ------------------------------------------------------------------ */
+#testimonials {
+   background-color: #0f9095;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   color: #7fe6ed;
+}
+#testimonials .section-head h2 { color: #fff; }
+
+#journal .section-head p.desc { color: ##7fe6ed; }
+
 .testimonials { margin-top: 30px }
 
 .testimonials .client-author {
@@ -625,8 +635,8 @@ ul#nav li.active a { color: #11ABB0; }
 	border-radius: 100% 100% 100% 100%;
 }
 .testimonials .client-author .name {
-   font: 14px/24px montserrat-bold, sans-serif;
-   color: #0f9095;
+   font: 16px/30px montserrat-bold, sans-serif;
+   color: #FFFFFF;
 
    position: absolute;
    top: 6px;
@@ -635,12 +645,13 @@ ul#nav li.active a { color: #11ABB0; }
 .testimonials .client-author span {
    font-family: opensans-regular, sans-serif;
    line-height: 18px;
-   font-size: 13px;
-   color: #969696;
+   font-size: 14px;
+   color: #7fe6ed;
    display: block;
 }
 .testimonials .client-cite {
-   font: 18px/36px opensans-light, sans-serif;
+   font: 16px/30px opensans-regular, sans-serif;
+   color: #FFFFFF
 }
 
 /* ================================================================== */
